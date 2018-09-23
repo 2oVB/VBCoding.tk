@@ -1,5 +1,6 @@
 let intButton = document.getElementById('intButton');
 
 intButton.onclick = function() {
-  document.location = 'http://interactonline.tk'
+  document.location.replace('http://interactonline.tk')
+  
 }
